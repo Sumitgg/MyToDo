@@ -12,6 +12,7 @@
 		EC0534572006B4B90067093B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0534552006B4B90067093B /* Main.storyboard */; };
 		EC0534592006B4B90067093B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0534582006B4B90067093B /* Assets.xcassets */; };
 		EC05345C2006B4B90067093B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC05345A2006B4B90067093B /* LaunchScreen.storyboard */; };
+		EC0534642006B69E0067093B /* MyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0534632006B69E0067093B /* MyToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC0534582006B4B90067093B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC05345B2006B4B90067093B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC05345D2006B4B90067093B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0534632006B69E0067093B /* MyToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EC0534582006B4B90067093B /* Assets.xcassets */,
 				EC05345A2006B4B90067093B /* LaunchScreen.storyboard */,
 				EC05345D2006B4B90067093B /* Info.plist */,
+				EC0534632006B69E0067093B /* MyToDo.swift */,
 			);
 			path = MyToDo;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0534642006B69E0067093B /* MyToDo.swift in Sources */,
 				EC0534542006B4B90067093B /* ViewController.swift in Sources */,
 				EC0534522006B4B90067093B /* AppDelegate.swift in Sources */,
 			);
